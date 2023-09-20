@@ -1,0 +1,41 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo{
+  width :100px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  flex: 1;
+  margin-left:350px ;
+  align-items: center;
+  list-style: none;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.nav-items > li{
+  padding: 0px 20px;
+  align-items: center;
+  padding-top: -10px;
+}
+.footer{
+  position: fixed;
+  left:200px;
+  bottom: 0px;
+}
